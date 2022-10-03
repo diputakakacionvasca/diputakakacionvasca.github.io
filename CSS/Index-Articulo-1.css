@@ -50,7 +50,30 @@ header .logo a {
 }
 
 
-
+  header nav {
+                    width:50%;
+                    /* Flexbox */
+                
+                    display:flex;
+                    flex-wrap:wrap;
+                    align-items:center;
+                }
+                
+                header nav a {
+                    background:#c0392b;
+                    color:#fff;
+                    text-align: center;
+                    text-decoration: none;
+                    padding:10px;
+                
+                    /* Flexbox */
+                    flex-grow:1;
+                }
+                
+                header nav a:hover {
+                    background:#e74c3c;
+                }
+                
 
 
 a{color:black;}
