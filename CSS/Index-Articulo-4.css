@@ -78,6 +78,7 @@ border-radius: 4px;}
 
 .contenedor .header{ 
     background: #fff;
+    border: solid 8px  #476082 ;
     padding: 20px;
     border-radius: 4px;
     /*CON GRID AREA*/
@@ -88,6 +89,7 @@ border-radius: 4px;}
 
 .contenedor .sidebar{
     background: #fff;
+   
     padding: 20px;
     border-radius: 4px;
     
@@ -99,6 +101,7 @@ border-radius: 4px;}
 .contenedor .header {
 
     background: #12203E;
+
     color:#fff;
 
     /*CON CSS
@@ -124,7 +127,9 @@ width: 100%;
 .contenedor .sidebar{
     /* Es el espacio que quieres que ocupe el sidebar*/
 grid-column: 3 / 4;
-background: #FFA43E;
+
+border:solid 8px #FFA43E ;
+background:  #909497 ; 
 /*Centrar el texto de forma horizontal*/
 text-align: center;
 display: flex;
@@ -149,6 +154,7 @@ grid-area: sidebar;
 .contenedor .widget-1 , .contenedor .widget-2 {
 
 background: #55abfd;
+border: solid 8px  #476082 ;
 color:  #fff;
 height: 100px;
 text-align: center;
@@ -173,6 +179,7 @@ justify-content: center;
 
 .contenedor .footer{
 background: #12203E;
+border: solid 8px  #476082 ;
 color:#fff;
 
 /*CON CSS
