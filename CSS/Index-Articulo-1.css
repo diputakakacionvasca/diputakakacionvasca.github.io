@@ -101,7 +101,7 @@ border-radius: 4px;}
 .contenedor .header {
 
     border:solid 8px #FFA43E ;
-    background:  #909497 ;  
+    background: #12203E;
     color:#fff;
 
     /*CON CSS
@@ -133,7 +133,9 @@ width: 100%;
 .contenedor .sidebar{
     /* Es el espacio que quieres que ocupe el sidebar*/
 grid-column: 3 / 4;
-background: #FFA43E;
+
+border:solid 8px #FFA43E ;
+background:  #909497 ; 
 /*Centrar el texto de forma horizontal*/
 text-align: center;
 display: flex;
