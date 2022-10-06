@@ -44,6 +44,7 @@ footer nav {
 footer nav a {
     background:#c0392b;
     color:#fff;
+    border: solid 3px  black;
     text-align: center;
     text-decoration: none;
     padding:10px;
