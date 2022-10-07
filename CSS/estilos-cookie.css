@@ -88,7 +88,7 @@ main {
 
 .fondo-aviso-cookies {
 	display: none;
-	background: rgba(0,0,0,.20);
+	
 	position: fixed;
 	z-index: 99;
 	width: 100vw;
